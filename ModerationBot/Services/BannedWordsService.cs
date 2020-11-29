@@ -9,16 +9,14 @@ namespace TheFirmGG.Services
 {
     public class BannedWordsService
     {
-        private readonly BannedWordsContext _bannedWordsContext;
-
         public BannedWordsService()
         {
-            _bannedWordsContext = new BannedWordsContext();
         }
 
         public List<BannedWord> GetBannedWords()
         {
-            List<BannedWord> bannedWordsList = _bannedWordsContext.BannedWords.ToList();
+            BannedWordsContext bannedWordsContext = new BannedWordsContext();
+            List<BannedWord> bannedWordsList = bannedWordsContext.BannedWords.ToList();
             return bannedWordsList;
         }
 

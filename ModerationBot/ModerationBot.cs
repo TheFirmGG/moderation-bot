@@ -39,6 +39,7 @@ namespace TheFirmGG
             // Grab list of banned words
             List<BannedWord> bannedWords = _bannedWordsService.GetBannedWords();
 
+            
             foreach (var bannedWord in bannedWords)
             {
                 Console.WriteLine("Banned Word Regex: " + bannedWord.BannedWordRegex);
