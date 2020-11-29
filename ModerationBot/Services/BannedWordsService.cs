@@ -10,7 +10,7 @@ namespace TheFirmGG.Services
     public class BannedWordsService
     {
         private List<BannedWord> _currentBannedWords;
-        private BannedWordsContext _bannedWordsContext;
+        private readonly BannedWordsContext _bannedWordsContext;
 
         public BannedWordsService()
         {
