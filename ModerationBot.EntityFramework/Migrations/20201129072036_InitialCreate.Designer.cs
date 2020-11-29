@@ -9,7 +9,7 @@ using TheFirmGG.EntityFramework;
 namespace TheFirmGG.EntityFramework.Migrations
 {
     [DbContext(typeof(BannedWordsContext))]
-    [Migration("20201129041818_InitialCreate")]
+    [Migration("20201129072036_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
