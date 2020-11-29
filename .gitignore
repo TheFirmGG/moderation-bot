@@ -4,6 +4,7 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 ModerationBot.EntityFramework/migration-apply.sh
+start.sh
 
 # Created by https://www.toptal.com/developers/gitignore/api/rider,csharp,dotnetcore,aspnetcore,visualstudio,linux,macos,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=rider,csharp,dotnetcore,aspnetcore,visualstudio,linux,macos,windows
