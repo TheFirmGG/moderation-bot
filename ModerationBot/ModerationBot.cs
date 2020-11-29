@@ -24,7 +24,7 @@ namespace TheFirmGG
             _bannedWordsService = new BannedWordsService();
             _client = new DiscordSocketClient();
 
-            _client.Log += Log;
+            //_client.Log += Log;
             _client.MessageReceived += MessageReceived;
             
             await _client.LoginAsync(TokenType.Bot, Environment.GetEnvironmentVariable(DiscordAuthTokenEnvVariableName));
@@ -38,13 +38,9 @@ namespace TheFirmGG
         {
             // Grab list of banned words
             List<BannedWord> bannedWords = _bannedWordsService.GetBannedWords();
-            
-	        Console.WriteLine("Banned Words List Length: " + bannedWords.Count); 
-            Console.WriteLine("Msg: " + msg.Content);
 
             foreach (var bannedWord in bannedWords)
             {
-                Console.WriteLine("Banned Word Regex: " + bannedWord.BannedWordRegex);
                 if (Regex.IsMatch(msg.Content, bannedWord.BannedWordRegex))
                 {
                     await msg.DeleteAsync();
