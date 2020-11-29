@@ -41,6 +41,7 @@ namespace TheFirmGG
 
             foreach (var bannedWord in bannedWords)
             {
+                Console.WriteLine("Banned Word Regex: " + bannedWord.BannedWordRegex);
                 if (Regex.IsMatch(msg.Content, bannedWord.BannedWordRegex))
                 {
                     await msg.DeleteAsync();
