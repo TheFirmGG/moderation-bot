@@ -4,7 +4,7 @@ using TheFirmGG.EntityFramework.Models;
 
 namespace TheFirmGG.EntityFramework
 {
-    public class BannedWordsContext : DbContext
+    public class ModerationBotContext : DbContext
     {
         public const string DatabaseHostEnvArgName = "MODERATION_BOT_DATABASE_HOST";
         public const string DatabaseNameEnvArgName = "MODERATION_BOT_DATABASE_NAME";

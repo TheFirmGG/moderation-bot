@@ -15,7 +15,7 @@ namespace TheFirmGG.Services
 
         public List<BannedWord> GetBannedWords()
         {
-            BannedWordsContext bannedWordsContext = new BannedWordsContext();
+            ModerationBotContext bannedWordsContext = new ModerationBotContext();
             List<BannedWord> bannedWordsList = bannedWordsContext.BannedWords.ToList();
             return bannedWordsList;
         }

@@ -8,7 +8,7 @@ using TheFirmGG.EntityFramework;
 
 namespace TheFirmGG.EntityFramework.Migrations
 {
-    [DbContext(typeof(BannedWordsContext))]
+    [DbContext(typeof(ModerationBotContext))]
     [Migration("20201129182418_InitialCreate")]
     partial class InitialCreate
     {
