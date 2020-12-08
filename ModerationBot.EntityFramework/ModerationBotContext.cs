@@ -12,6 +12,7 @@ namespace TheFirmGG.EntityFramework
         public const string DatabasePasswordEnvArgName = "MODERATION_BOT_DATABASE_PASSWORD";
         
         public DbSet<BannedWord> BannedWords { get; set; }
+        public DbSet<BotSetting> Settings { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
