@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ModerationBot.WebAPI
+namespace TheFirmGG.ModerationBot.WebAPI
 {
     public class Program
     {

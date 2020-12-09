@@ -2,11 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>TheFirmGG.ModerationBot.WebAPI</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ModerationBot.EntityFramework\ModerationBot.EntityFramework.csproj" />
+      <ProjectReference Include="..\ModerationBot.Core.Services\ModerationBot.Core.Services.csproj" />
     </ItemGroup>
-
 
 </Project>

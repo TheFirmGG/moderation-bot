@@ -4,10 +4,10 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Discord;
 using Discord.WebSocket;
-using TheFirmGG.EntityFramework.Models;
-using TheFirmGG.Services;
+using TheFirmGG.ModerationBot.Core.Models;
+using TheFirmGG.ModerationBot.Core.Services;
 
-namespace TheFirmGG
+namespace TheFirmGG.ModerationBot
 {
     class ModerationBot
     {

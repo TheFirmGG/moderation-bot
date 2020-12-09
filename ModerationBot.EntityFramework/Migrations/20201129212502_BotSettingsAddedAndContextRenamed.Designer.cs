@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using TheFirmGG.EntityFramework;
+using TheFirmGG.ModerationBot.EntityFramework;
 
-namespace TheFirmGG.EntityFramework.Migrations
+namespace TheFirmGG.ModerationBot.EntityFramework.Migrations
 {
     [DbContext(typeof(ModerationBotContext))]
     [Migration("20201129212502_BotSettingsAddedAndContextRenamed")]

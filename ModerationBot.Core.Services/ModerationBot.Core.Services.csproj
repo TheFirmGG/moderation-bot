@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>TheFirmGG.ModerationBot.Core.Services</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ModerationBot.Core.Models\ModerationBot.Core.Models.csproj" />
+      <ProjectReference Include="..\ModerationBot.EntityFramework\ModerationBot.EntityFramework.csproj" />
+    </ItemGroup>
+
+</Project>

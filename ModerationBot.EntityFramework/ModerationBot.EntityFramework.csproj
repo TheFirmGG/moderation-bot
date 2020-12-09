@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>TheFirmGG.EntityFramework</RootNamespace>
+        <RootNamespace>TheFirmGG.ModerationBot.EntityFramework</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,6 +11,10 @@
         <PrivateAssets>all</PrivateAssets>
       </PackageReference>
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ModerationBot.Core.Models\ModerationBot.Core.Models.csproj" />
     </ItemGroup>
 
 </Project>

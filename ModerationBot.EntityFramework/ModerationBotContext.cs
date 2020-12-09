@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using TheFirmGG.EntityFramework.Models;
+using TheFirmGG.ModerationBot.Core.Models;
 
-namespace TheFirmGG.EntityFramework
+namespace TheFirmGG.ModerationBot.EntityFramework
 {
     public class ModerationBotContext : DbContext
     {

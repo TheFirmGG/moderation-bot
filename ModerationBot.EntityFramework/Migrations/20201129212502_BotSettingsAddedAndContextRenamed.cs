@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace TheFirmGG.EntityFramework.Migrations
+namespace TheFirmGG.ModerationBot.EntityFramework.Migrations
 {
     public partial class BotSettingsAddedAndContextRenamed : Migration
     {

@@ -3,9 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using TheFirmGG.EntityFramework;
 
-namespace TheFirmGG.EntityFramework.Migrations
+namespace TheFirmGG.ModerationBot.EntityFramework.Migrations
 {
     [DbContext(typeof(ModerationBotContext))]
     partial class BannedWordsContextModelSnapshot : ModelSnapshot

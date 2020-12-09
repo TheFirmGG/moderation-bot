@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>TheFirmGG</RootNamespace>
+        <RootNamespace>TheFirmGG.ModerationBot</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ModerationBot.EntityFramework\ModerationBot.EntityFramework.csproj" />
+      <ProjectReference Include="..\ModerationBot.Core.Services\ModerationBot.Core.Services.csproj" />
     </ItemGroup>
 
 </Project>

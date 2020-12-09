@@ -1,4 +1,4 @@
-namespace TheFirmGG.EntityFramework.Models
+namespace TheFirmGG.ModerationBot.Core.Models
 {
     public class BotSetting
     {

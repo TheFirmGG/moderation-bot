@@ -18,4 +18,8 @@
       <ProjectReference Include="..\ModerationBot\ModerationBot.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Services" />
+    </ItemGroup>
+
 </Project>

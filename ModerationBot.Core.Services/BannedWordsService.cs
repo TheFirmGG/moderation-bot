@@ -1,11 +1,9 @@
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using Newtonsoft.Json;
-using TheFirmGG.EntityFramework;
-using TheFirmGG.EntityFramework.Models;
+using TheFirmGG.ModerationBot.Core.Models;
+using TheFirmGG.ModerationBot.EntityFramework;
 
-namespace TheFirmGG.Services
+namespace TheFirmGG.ModerationBot.Core.Services
 {
     public class BannedWordsService
     {
